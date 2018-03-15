@@ -7,7 +7,6 @@ h1	{
 }
 h2	{
   	font-size: 22px;
-
 }
 
 body {
@@ -20,11 +19,17 @@ body {
 
 hr {
   	width: 1800px;
-  }
+	}
+#container { 
+overflow: hidden; 
+}
+#floated-imgs { 
+float: right; 
+}
+#floated-imgs img {
+display: block; 
+}
 
-#container { overflow: hidden; 
-}
-#floated-imgs { float: right; 
-}
-#floated-imgs img {display: block; 
+h3 {
+text-align: right;
 }
