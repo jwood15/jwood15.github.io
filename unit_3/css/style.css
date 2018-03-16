@@ -1,37 +1,29 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 16px;
+}
 h1	{
   	font-size: 40px;
-    font-style: italic;
-}
-#slogan {
     font-style: italic;
 }
 h2	{
   	font-size: 22px;
 }
-
-body {
-	text-align: left;
-  background-color: rgb(255, 255, 255);
-	color: #000;
-  font-family: Helvetica;
-  font-size: 12;
-	}
-
-#aa-windows {color: rgb(0,56,101);
-font-weight: bold;
-}
-
-hr {
-  	width: 1800px;
-	}
-
 h3 {
-text-align: center;
-font-size: 200%;
+	text-align: center;
+	font-size: 200%;
 }
-
 h4 {
-text-align: center;
-color: rgb(255, 255, 255);
+	text-align: center;
 }
-
+ul {
+	padding-left:1.25em;
+}
+#slogan {
+    font-style: italic;
+}
+#aa-windows {
+	color: rgb(0,56,101);
+	font-weight: bold;
+}
