@@ -19,6 +19,7 @@ body {
 
 #aa-windows {color: rgb(0,56,101);
 font-weight: bold;
+font-size: larger;
 }
 
 hr {
@@ -27,11 +28,23 @@ hr {
 
 h3 {
 text-align: center;
-font-size: 200%;
+font-size: 150%;
 }
 
 h4 {
 text-align: center;
 color: rgb(0, 0, 0);
+}
+
+#features {
+text-align: center;
+color: rgb(0,56,101);
+font-weight: bold;
+font-size: larger;
+
+}
+
+#features1 {
+text-align: center;
 }
 
