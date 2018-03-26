@@ -17,9 +17,14 @@ body {
   font-size: 12;
 	}
 
-#aa-windows {color: rgb(0,56,101);
+#aa-windows {
+color: rgb(0,56,101);
 font-weight: bold;
 font-size: larger;
+}
+
+#man {
+image-orientation: right;
 }
 
 hr {
@@ -47,4 +52,5 @@ font-size: larger;
 #features1 {
 text-align: center;
 }
+
 
