@@ -1,13 +1,22 @@
 h1  {
     font-size: 40px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Noto Serif', serif;
 }
-#slogan {
 
-    font-family: 'Merriweather', serif;
-}
 h2  {
     font-size: 22px;
+    font-family: 'Noto Serif', serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Noto Serif', serif;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 body {
@@ -18,48 +27,39 @@ body {
   font-size: 12;
   }
 
-#aa-windows {
-color: rgb(0,56,101);
-font-weight: bold;
-font-size: larger;
-}
+  hr {
+   width: 1800px;
+  }
 
 .centered-icons {
-text-align: center;
+   text-align: center;
 }
 
 .centered-icons img {
- padding: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
+}
+
+#slogan {
+   font-family: 'Noto Serif', serif;;
+}
+
+#aa-windows {
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
 }
 
 #man {
-float: right;
-
-}
-
-hr {
-    width: 1800px;
-  }
-
-h3 {
-text-align: center;
-font-size: 150%;
-font-family: 'Merriweather', serif;
-}
-
-h4 {
-text-align: center;
-color: rgb(0, 0, 0);
+    float: right;
 }
 
 #features {
-text-align: center;
-color: rgb(0,56,101);
-font-weight: bold;
-font-size: larger;
-
+    text-align: center;
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
 }
 
 #features1 {
-text-align: center;
+    text-align: center;
 }
