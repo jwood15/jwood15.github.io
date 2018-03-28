@@ -1,3 +1,7 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+section {
+    padding:5em 0;
+}
 h1  {
     font-size: 40px;
     font-family: 'Noto Serif', serif;
@@ -24,8 +28,7 @@ body {
   background-color: rgb(255, 255, 255);
   color: #000;
   font-family: Helvetica;
-  font-size: 12;
-  }
+}
 
   hr {
    width: 1800px;
@@ -51,6 +54,7 @@ body {
 
 #man {
     float: right;
+    width: 300px;
 }
 
 #features {
