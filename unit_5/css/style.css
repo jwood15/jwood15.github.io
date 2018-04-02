@@ -1,0 +1,74 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+section {
+    padding:5em 0;
+}
+h1  {
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+}
+
+h2  {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Noto Serif', serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Noto Serif', serif;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  font-family: Helvetica;
+}
+
+ul {
+padding:10px;
+}
+
+  hr {
+   width: 1800px;
+  }
+
+.centered-icons {
+   text-align: center;
+}
+
+.centered-icons img {
+    padding: 0 20px 0 20px;
+}
+
+#slogan {
+   font-family: 'Noto Serif', serif;;
+}
+
+#aa-windows {
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
+}
+
+#man {
+    float: right;
+    width: 300px;
+}
+
+#features {
+    text-align: center;
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
+}
+
+#features1 {
+    text-align: center;
+}
