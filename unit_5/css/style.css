@@ -1,4 +1,13 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* { 
+  margin:0; 
+  padding:0; 
+  box-sizing:border-box; 
+}
+
+header {
+  padding: 10px;
+}
+
 section {
     padding:5em 0;
 }
@@ -8,34 +17,68 @@ h1  {
 }
 
 h2  {
-    text-align: center;
-    font-size: 200%;
+    text-align: left;
+    font-size: 30px;
     font-family: 'Noto Serif', serif;
+}
+
+aside {
+ 
+}
+
+.man-window img {
+    padding: 0 20px 0 20px;
+}
+
+#aa-windows {
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
 }
 
 h3 {
   text-align: center;
-  font-size: 150%;
+  font-size: 25px;
   font-family: 'Noto Serif', serif;
 }
 
-h4 {
-  text-align: center;
+h5 {
+  text-align: left;
   color: rgb(0, 0, 0);
 }
 
 body {
   text-align: left;
-  background-color: rgb(255, 255, 255);
-  color: #000;
+  font-size: 20px;
   font-family: Helvetica;
+}
+
+a {
+  color: dd0000;
+  text-decoration: none;  
+  }
+
+nav {
+  backround color: #ffffff;
+  text-align: left;
+  backround color: #333333;
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article {
+    padding: 30px 0;
 }
 
 ul {
 padding:10px;
+
 }
 
-  hr {
+hr {
    width: 1800px;
   }
 
@@ -47,28 +90,31 @@ padding:10px;
     padding: 0 20px 0 20px;
 }
 
-#slogan {
-   font-family: 'Noto Serif', serif;;
-}
-
-#aa-windows {
-    color: rgb(0,56,101);
-    font-weight: bold;
-    font-size: larger;
-}
-
 #man {
     float: right;
     width: 300px;
 }
 
-#features {
+#benefits {
     text-align: center;
     color: rgb(0,56,101);
     font-weight: bold;
     font-size: larger;
+    background-color: #ccc;
 }
 
-#features1 {
-    text-align: center;
+#top-grade {
+    background-color: #ccc;
 }
+
+#branded-windows {
+    background-color: #abc;
+    padding-bottom: 20px;
+}
+
+#wrapper {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
