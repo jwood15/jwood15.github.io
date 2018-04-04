@@ -4,47 +4,59 @@
   box-sizing:border-box; 
 }
 
-header {
-  padding: 10px;
+#toptext {
+  overflow: hidden;
+  max-width: 75ch;
 }
 
-section {
-    padding:5em 0;
+#middletext {
+  overflow: hidden;
+  max-width: 75ch;
 }
+
+#bottomtext {
+  overflow: hidden;
+  max-width: 75ch;
+text-align: left;
+}
+
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav {
+  backround-color: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 h1  {
     font-size: 40px;
     font-family: 'Noto Serif', serif;
 }
 
 h2  {
-    text-align: left;
     font-size: 30px;
     font-family: 'Noto Serif', serif;
-}
-
-aside {
-  width: 300px;
-}
-
-.man-window img {
-    padding: 0 20px 0 20px;
-}
-
-#aa-windows {
-    color: rgb(0,56,101);
-    font-weight: bold;
-    font-size: larger;
+    text-align: left;
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
   font-size: 25px;
+  padding: 10px 0 0;
   font-family: 'Noto Serif', serif;
 }
 
-h5 {
+h4 {
   text-align: left;
-  color: rgb(0, 0, 0);
 }
 
 body {
@@ -53,25 +65,36 @@ body {
   font-family: Helvetica;
 }
 
+aside {
+  background-color: #FFC675;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
+}
+
+.man-window img {
+background-color: #FFE2B8;
+}
+
+article {
+    background-color: #E89C6C
+    border: 1px black solid;
+    padding: 20px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+}
+
+#aa-windows {
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
+    padding: 30px 20px 0;
+}
+
 a {
   color: dd0000;
   text-decoration: none;  
   }
-
-nav {
-  backround color: #ffffff;
-  text-align: left;
-  backround color: #333333;
-}
-
-nav a {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-article {
-    padding: 30px 0;
-}
 
 ul {
 padding:10px;
@@ -87,16 +110,17 @@ hr {
 }
 
 .centered-icons img {
+    background-color: #FFE2B8;
     padding: 0 20px 0 20px;
 }
 
 #man {
     float: right;
-    width: 300px;
+    width: 200px;
 }
 
 #benefits {
-    text-align: center;
+    text-align: left;
     color: rgb(0,56,101);
     font-weight: bold;
     font-size: larger;
@@ -112,9 +136,8 @@ hr {
     padding-bottom: 20px;
 }
 
-#wrapper {
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+footer {
+  text-align: center;
+  padding: 20px;
 }
 
