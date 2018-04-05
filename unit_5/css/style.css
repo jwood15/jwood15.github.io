@@ -68,19 +68,17 @@ body {
   font-family: Helvetica;
 }
 
-aside {
+.man-window {
   background-color: #FFC675;
   border: 1px black solid;
   padding: 20px;
   float: right;
-}
-
-.man-window img {
-  background-color: #FFE2B8;
+  width: 33.33%;
+  text-align: center;
 }
 
 article {
-    background-color: #E89C6C
+    background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
     padding: 10px 0 0 20px;
@@ -95,8 +93,8 @@ article {
 }
 
 a {
-  color: dd0000;
-  text-decoration: none;  
+  color: #dd0000;
+  text-decoration: none;
   }
 
 ul {
@@ -110,16 +108,19 @@ hr {
 
 .centered-icons {
    text-align: center;
+   width: 40em;
+   margin: auto;
 }
 
 .centered-icons img {
-    background-color: #FFE2B8;
-    padding: 0 20px 0 20px;
+    width: 100%;
 }
 
 #man {
-    float: right;
+    /* float: right; */
+    display: block;
     width: 200px;
+    margin: auto;
 }
 
 #benefits {
@@ -143,9 +144,21 @@ footer {
   text-align: center;
   padding: 20px;
 }
+.centered-icons div {
+    width: 33.33%;
+    float: left;
+    padding: 2em;
+}
 
-#wrapper {
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+.cta {
+    background: white;
+    padding: 1em 2em;
+    border-radius: 45%;
+    display: inline-block;
+    margin-top: 1em;
+}
+.clearfix:after {
+  content:"";
+  clear:both;
+  display:block;
 }
