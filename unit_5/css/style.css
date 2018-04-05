@@ -17,7 +17,7 @@
 #bottomtext {
   overflow: hidden;
   max-width: 75ch;
-text-align: left;
+  text-align: left;
 }
 
 header {
@@ -73,7 +73,7 @@ aside {
 }
 
 .man-window img {
-background-color: #FFE2B8;
+  background-color: #FFE2B8;
 }
 
 article {
