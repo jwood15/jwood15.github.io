@@ -99,7 +99,6 @@ a {
 
 ul {
 padding:10px;
-
 }
 
 hr {
@@ -138,6 +137,28 @@ hr {
 #branded-windows {
     background-color: #abc;
     padding-bottom: 20px;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
 }
 
 footer {
