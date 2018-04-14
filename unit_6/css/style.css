@@ -1,0 +1,164 @@
+* { 
+  margin:0; 
+  padding:0; 
+  box-sizing:border-box; 
+}
+
+#toptext {
+  overflow: hidden;
+  max-width: 75ch;
+}
+
+#middletext {
+  overflow: hidden;
+  max-width: 75ch;
+}
+
+#bottomtext {
+  overflow: hidden;
+  max-width: 75ch;
+  text-align: left;
+  padding: 0 10px;
+}
+
+header {
+  background-color: #FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav {
+  backround-color: #E8C66A;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1  {
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+}
+
+h2  {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    text-align: left;
+    padding: 10px 0;
+}
+
+h3 {
+  text-align: left;
+  font-size: 25px;
+  padding: 5px 10px 5px;
+  font-family: 'Noto Serif', serif;
+}
+
+h4 {
+  text-align: left;
+  padding: 10px 10px 0;
+}
+
+body {
+  text-align: left;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+.man-window {
+  background-color: #FFC675;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 33.33%;
+  text-align: center;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    padding: 10px 0 0 20px;
+    text-align: left;
+}
+
+#aa-windows {
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
+    padding: 30px 20px 0;
+}
+
+a {
+  color: #dd0000;
+  text-decoration: none;
+  }
+
+ul {
+padding:10px;
+
+}
+
+hr {
+   width: 1800px;
+  }
+
+.centered-icons {
+   text-align: center;
+   width: 40em;
+   margin: auto;
+}
+
+.centered-icons img {
+    width: 100%;
+}
+
+#man {
+    /* float: right; */
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+#benefits {
+    text-align: left;
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
+    background-color: #ccc;
+}
+
+#top-grade {
+    background-color: #ccc;
+}
+
+#branded-windows {
+    background-color: #abc;
+    padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+.centered-icons div {
+    width: 33.33%;
+    float: left;
+    padding: 2em;
+}
+
+.cta {
+    background: white;
+    padding: 1em 2em;
+    border-radius: 45%;
+    display: inline-block;
+    margin-top: 1em;
+}
+.clearfix:after {
+  content:"";
+  clear:both;
+  display:block;
+}
