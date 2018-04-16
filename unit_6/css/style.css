@@ -22,7 +22,7 @@
 }
 
 header {
-  background-color: #FFED74;
+  background-color: #D7DEE5;
   border: 1px black solid;
   padding: 20px;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 .man-window {
-  background-color: #FFC675;
+  background-color: #D7DEE5;
   border: 1px black solid;
   padding: 20px;
   float: right;
@@ -78,7 +78,7 @@ body {
 }
 
 article {
-    background-color: #E89C6C;
+    background-color: #166197;  
     border: 1px black solid;
     padding: 20px;
     padding: 10px 0 0 20px;
@@ -89,7 +89,7 @@ article {
     color: rgb(0,56,101);
     font-weight: bold;
     font-size: larger;
-    padding: 30px 20px 0;
+    padding: 20px 0 0;
 }
 
 a {
@@ -127,7 +127,7 @@ hr {
     color: rgb(0,56,101);
     font-weight: bold;
     font-size: larger;
-    background-color: #ccc;
+    background-color: #D7DEE5;
 }
 
 #top-grade {
@@ -135,18 +135,18 @@ hr {
 }
 
 #branded-windows {
-    background-color: #abc;
+    background-color: #C9E2FA;
     padding-bottom: 20px;
 }
 
 #two_column {
-    background-color: #FFB7CF;
+    background-color: #166197;
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: violet;
+    background-color: #166197;
     border: 1px black solid;
     padding: 20px;
     float: left;
@@ -154,7 +154,7 @@ hr {
 }
 
 #right {
-    background-color: pink;
+    background-color: #D7DEE5;
     border: 1px black solid;
     padding: 20px;
     float: right;   
