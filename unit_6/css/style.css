@@ -7,6 +7,8 @@
 #toptext {
   overflow: hidden;
   max-width: 75ch;
+  margin-left: 10px;
+  padding: 10px;
 }
 
 #middletext {
@@ -47,7 +49,7 @@ h2  {
     font-size: 30px;
     font-family: 'Noto Serif', serif;
     text-align: left;
-    padding: 10px 0;
+    padding: 10px 0 0;
 }
 
 h3 {
@@ -86,7 +88,7 @@ article {
 }
 
 #aa-windows {
-    color: rgb(0,56,101);
+    color: rgb(0,0,0);
     font-weight: bold;
     font-size: larger;
     padding: 20px 0 0;
