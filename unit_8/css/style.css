@@ -46,7 +46,246 @@ nav a {
     margin-right: .5em;
 }
 
+nav a:hover {* { 
+  margin:0; 
+  padding:0; 
+  box-sizing:border-box; 
+}
+
+header {
+  background-color: #D7DEE5;
+  border: 1px black solid;
+  padding: 1em;
+  max-width: 1435px;
+}
+
+h1  {
+    font-size: 2em;
+    font-family: 'Noto Serif', serif;
+}
+
+h2  {
+    font-size: 1.5em;
+    font-family: 'Noto Serif', serif;
+    text-align: left;
+    padding: .5em 0 0;
+}
+
+h3 {
+  text-align: left;
+  font-size: 1.2em;
+  padding: .25em .5em .25em;
+  font-family: 'Noto Serif', serif;
+}
+
+h4 {
+  text-align: left;
+  padding: 0px .5em 0;
+}
+
+nav {
+  backround-color: #E8C66A;
+  border: 1px black solid;
+  padding: .5em;
+}
+
+nav a {
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
 nav a:hover {
+    background-color: #c7d0dd;
+}
+
+body {
+  text-align: left;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+.wrapper{
+	width: 100%;
+	max-width:1300px;
+	margin: 0 auto;
+	}
+
+
+#toptext {
+  overflow: hidden;
+  max-width: 75ch;
+  margin-left: .5em;
+  padding: .5em;
+}
+
+#middletext {
+  overflow: hidden;
+  max-width: 75ch;
+}
+
+#bottomtext {
+  overflow: hidden;
+  max-width: 75ch;
+  text-align: left;
+  padding: 0 .5em;
+}
+
+.window-header-images img{
+  width: 30%;
+  max-width: 500px;
+}
+
+.man-window {
+  background-color: #D7DEE5;
+  border: 1px black solid;
+  padding: .5em;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#man {
+    /* float: right; */
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-width: 662px;
+}
+
+article {
+    background-color: #166197;  
+    border: 1px black solid;
+    padding: 1em;
+    padding: .5em 0 0 1em;
+    text-align: left;
+}
+
+#aa-branded-windows {
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: larger;
+    padding: 1em 0 0;
+}
+
+a {
+  color: #A3180A;
+  text-decoration: none;
+  }
+
+ul {
+padding:.5em;
+}
+
+hr {
+   width: 100%;
+  }
+
+.centered-icons {
+   text-align: center;
+   margin: auto;
+}
+
+.icons img {
+    width: 100%;
+}
+
+#windows-benefits {
+    text-align: center;
+    color: rgb(0,56,101);
+    font-weight: bold;
+    font-size: larger;
+    background-color: #D7DEE5;
+}
+
+#top-grade {
+    background-color: #ccc;
+    text-align: center;
+}
+
+#branded-windows {
+    background-color: #D7DEE5;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+#two_column {
+    background-color: #166197;
+    border: 1px black solid;
+    padding: 1em;
+}
+
+#left {
+    background-color: #166197;
+    border: 1px black solid;
+    padding: 1em;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #D7DEE5;
+    border: 1px black solid;
+    padding: 1em;
+    float: right;   
+    width: 62%;
+}
+
+.bullets {
+   text-align: left;
+   width: 8em;
+   margin: .5em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
+.centered-icons div {
+    width: 33.33%;
+    float: left;
+    padding: 2em;
+}
+
+.cta {
+    background: white;
+    padding: 1em 2em;
+    border-radius: 45%;
+    display: inline-block;
+    margin-top: 1em;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 1435px) {
+  
+  }
+ 
+@media only screen and (max-width: 600px) {
+  .window-header-images img{
+  width: 100%;
+}
+.centered-icons div {
+    width: 100%;
+    float: none;
+    padding: 2em;
+}
+  }
+  
+@media only screen and (max-width: 1000px) {
+  
+.man-window {
+  float: none;
+}
+
+#man {
+  float: none;
+	}
+}
     background-color: #c7d0dd;
 }
 
